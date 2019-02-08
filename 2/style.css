@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h2,h3{
+    color:blue;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+header, footer {
+    background-color: blueviolet;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+}
+
+main    {
+    background-image: url(img/flower.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+article {
+    border: solid 1px violet;
+    background-color: aquamarine;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.cert {
+    border: 3px grey solid;
+}

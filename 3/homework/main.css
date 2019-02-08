@@ -1,0 +1,199 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.mainContainer{
+    width: 776px;
+    margin: auto;
+}
+.menuLink {
+
+    text-decoration: none;
+    display: block;
+    font-family: Arial;
+    font-size: 12px;
+    color: #f6dde3;
+
+}
+
+.logoImage {
+    float: left;
+    margin-right: 10px;
+}
+
+.dogImage {
+    float: left;
+    margin-right: 18px;
+}
+
+.logoContainer {
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-bottom: 39px;
+}
+
+.contentDark {
+    background-color: #eeeeee;
+    border: 1px solid #666666;
+    padding-left: 17px;
+    padding-top: 10px;
+    padding-right: 32px;
+    padding-bottom: 20px;
+}
+
+.contentLight {
+    padding-top: 20px;
+    padding-left: 3px;
+    padding-bottom: 30px;
+}
+
+.lighContainerHeader {
+    margin-right: 48px;
+    padding-bottom: 6px;
+}
+
+header {
+    
+    height: 39px;
+    background-color: #7a2e40;
+}
+
+.headerMenuItem {
+    display: inline-block;
+}
+
+.headerContainer {
+    font-family: Arial;
+    color: #f6dde3;
+    font-size: 12px;
+
+}
+
+.headerMenuList {
+    text-align: right;
+    padding-right: 48px;
+    padding-top: 12px;
+}
+
+h1 {
+    font-family: Georgia;
+    font-size: 18px;
+    color: #fa7393;
+    font-weight: normal;
+}
+span {
+color: #7a2e40;
+}
+
+h2 {
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: bold;
+    color: #7a2e40;
+    line-height: 2;
+margin-bottom: 9px;
+    
+    border-bottom: 1px solid #e3dfe0;
+}
+
+h3 {
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: bold;
+    color: #7a2e40;
+    line-height: 2;
+}
+
+aside {
+    padding-top: 26px;
+    width: 279px;
+    float: right;
+    
+}
+
+p {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #2a3845;
+    word-wrap: normal;
+
+
+}
+
+.contentList {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #2a3845;
+    padding-top: 18px;
+    padding-left: 17px;
+    list-style-image: url(img/redBullet.png);
+}
+
+.relatedLinksList {
+    background-color: #eeeeee;
+    border: 1px solid #666666;
+    margin-top: 6px;
+    padding-left: 39px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+ul.relatedLinksList {
+    list-style-image: url(img/paw.png);
+}
+
+.relatedLinksLink {
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 2;
+    color: #a43b55;
+}
+
+main {
+    width: 442px;
+    float: left;
+    padding-left: 32px;
+}
+
+.aboutContainer {
+    padding-top: 23px;
+    background: url(img/Shadow.png) no-repeat top;
+}
+
+.bodyContainer {
+    background: url(img/headerShadow.png) no-repeat top;
+}
+
+.relatedLinksContainer {
+    padding-top: 13px;
+}
+
+.aboutContainer,
+.relatedLinksContainer {
+
+    padding-right: 48px;
+    padding-left: 32px;
+}
+
+.ladyImage {
+    margin-left: auto;
+    margin-right: auto;
+
+    display: block;
+}
+
+.clearfix {
+    clear: both;
+}
+
+footer {
+    
+  height: 98px;
+  background-color: #f9f9f9;
+  border:1px solid #f0e9eb; 
+  padding-left: 33px;
+  padding-top: 10px;
+}

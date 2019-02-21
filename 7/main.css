@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header,
+footer {
+    background-color: yellow;
+}
+
+main {
+    background-color: orange;
+}
+
+#logo {
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+}
+
+#four>div {
+    display: inline-block;
+    width: 25%;
+    padding: 10px;
+}
+
+#six>div {
+    display: inline-block;
+    width: 16%;
+    padding: 10px;
+}
+
+#three>div {
+    display: inline-block;
+    width: 33%;
+    padding: 10px;
+}
+
+#footer-left {
+    float: left;
+    width: 30%;
+}
+
+#footer-right {
+    float: right;
+    width: 30%''
+}
+
+#toggle {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    display: none;
+}
+
+
+
+@media (max-width:1200px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media (max-width:1100px) {
+    #six>div {
+        width: 33%;
+    }
+}
+
+@media (max-width:800px) {
+    #four>div {
+        width: 50%;
+    }
+}
+
+@media (max-width:600px) {
+
+    #six>div,
+    #four>div,
+    #three>div {
+        width: 100%;
+    }
+
+    #logo {
+        float: none;
+        
+    }
+
+    #toggle {
+        display: inline-block;
+        position: fixed;
+        top: 10px;
+        right: 10px;
+        z-index: 100;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #toggle:hover + nav{
+        display: block;
+    
+    }
+}
+

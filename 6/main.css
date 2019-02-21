@@ -1,0 +1,99 @@
+* {
+    font-family:"Open Sans", sans-serif;
+    margin:0;
+    padding:0;
+    }
+    
+    body {
+    background-color:#4a99d3;
+    }
+    
+    .blue {
+    background-color:rgba(33,63,100,.69);
+    color:#FFF;
+    padding-left:76px;
+    padding-top:56px;
+    padding-right:70px;
+    position:absolute;
+    left:200px;
+    right:200px;
+    top:110px;
+    box-shadow:5px 5px 29px rgba(0,0,0,0.43);
+    }
+    
+    .container {
+    position:relative;
+    width:1200px;
+    margin:auto;
+    }
+    
+    p {
+    font-size:14px;
+    padding-bottom:20px;
+    }
+    
+    h1 {
+    font-size:36px;
+    padding-bottom:20px;
+    font-weight:600;
+    }
+    
+    h2 {
+    font-size:30px;
+    padding-bottom:15px;
+    font-weight:600;
+    }
+    
+    .cloud-top {
+    position:absolute;
+    z-index:200;
+    right:67px;
+    top:40px;
+    }
+    
+    .cloud-bottom {
+    position:absolute;
+    z-index:-200;
+    }
+    
+    .cloud-left {
+    top:165px;
+    }
+    
+    .cloud-left-bottom {
+    left:240px;
+    top:375px;
+    width:213px;
+    height:130px;
+    }
+    
+    .cloud-right {
+    top:330px;
+    right:0;
+    }
+    
+    .birds-container {
+    padding-top:133px;
+    padding-bottom:168px;
+    }
+    
+    .birds-container img {
+    padding-left:10px;
+    display:inline-block;
+    }
+    
+    footer {
+    background:url(img/grass.png);
+    height:134px;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    }
+    
+    .social-container {
+    width:36px;
+    position:absolute;
+    top:110px;
+    left:164px;
+    }

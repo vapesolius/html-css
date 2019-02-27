@@ -6,7 +6,7 @@
 
 .header-top {
     background: rgba(30, 29, 30, 0.67);
-    padding: 17px 0 19px;
+    padding-top: 17px;
 }
 
 .header-top a {
@@ -14,6 +14,8 @@
     font-size: 24px;
     text-decoration: none;
     font-weight: 700;
+    padding-bottom: 19px;
+    display: inline-block;
 }
 
 .header-top li a {
@@ -47,7 +49,7 @@ ul {
 .container {
     width: 1134px;
     margin: auto;
-   
+
 }
 
 header {
@@ -297,6 +299,13 @@ h4:after {
     text-align: left;
 }
 
+#menu {
+    float: right;
+    margin-right: 40px;
+    padding: 0;
+    display: none;
+}
+
 @media (max-width:1164px) {
     .container {
         width: 100%;
@@ -379,7 +388,7 @@ h4:after {
         margin: auto;
     }
 
-    .grey ul li{
+    .grey ul li {
         padding-right: 0;
     }
 
@@ -402,9 +411,61 @@ h4:after {
         margin: auto;
     }
 
-    .half-width{
+    .half-width {
         width: 100%;
         padding-bottom: 30px;
+    }
+
+    .header-top li,
+    ul {
+        display: block;
+    }
+
+    .header-top ul {
+        display: none;
+    }
+
+    .header-top ul li a {
+        padding-bottom: 0;
+    }
+
+    .header-top ul:hover {
+        display: block;
+    }
+
+    .header-top li {
+        border-bottom: 1px solid grey;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+
+    .header-top li:hover {
+        background-color: rgba(50, 63, 82, 0.5);
+    }
+
+    .header-top li:last-of-type {
+        border-bottom:none;
+    }
+
+    .header-top ul a, .header-top a {
+        margin-left: 15px;
+    }
+
+    .header-top .container {
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
+
+    
+
+    #menu {
+        display: inline-block;
+    }
+
+    #menu:hover +ul{
+        display: block;
     }
 
 }
